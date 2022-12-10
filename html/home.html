@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Registration</title>
+    <style>
+       /* h3{
+           color: rgb(255, 234, 0);
+           background-color: black;
+           border-radius: 20px;
+           text-align: center;
+           padding: 10px;
+       } */
+       
+            .content{
+                position: absolute;
+                top:5%;
+                left:5%;
+                right: 5%;
+                bottom: 5%;
+                background-color: rgb(166, 166, 229);
+                background-size: auto;
+            }
+            .content h3{
+                color: white;
+                padding: 8px;
+                margin: 10px;
+                background-color: black;
+                border-radius: 20px;
+                text-align: center;
+            }  
+            .content label{
+                padding:2px;
+                color: black;
+                background-color: rgb(223, 226, 45);
+                border-radius: 5px;
+                margin: 3px;
+            }
+            .content input{
+                border-radius: 5px;
+            }
+            .content textarea{
+                border-radius: 5px;
+                color: black;
+            }
+            
+            
+    </style>
+  </head>
+  <body>
+    <div class="bg"></div>
+    <div class="content">
+        <h3>Student Registration Form</h3>
+    <form>
+      <table>
+        <tbody>
+          <tr>
+            <td><label> First Name :</label></td>
+            <td><input type="text" placeholder="Capital letter only"></td>
+          </tr>
+          <tr>
+            <td><label> Last Name :</label></td>
+            <td><input type="text" /></td>
+          </tr>
+
+          <tr>
+            <td><label> State :</label></td>
+            <td><input type="text" value="MH" readonly></td>
+          </tr>
+          <tr>
+            <td><label> Country :</label></td>
+            <td><input type="text" value="India" readonly></td>
+          </tr>
+          <tr>
+            <tr>
+              <td> <label> Feedback </label> </td>
+              <td> <textarea rows="7" cols="40">  </textarea> </td>
+            </tr>
+          </tr>
+          <br>
+          <tr>
+            <div class="button"> 
+            <td> <button type="submit"> Submit </button></td>
+            <td> <button type="reset"> Clear </button></td>
+           </div>
+          </tr>
+          
+        </tbody>
+      </table>
+    </form>
+</div>
+  </body>
+</html>

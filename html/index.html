@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>College management</title>
+    <style>
+      
+      h1 {
+        color: rgb(134, 237, 142);
+        text-shadow: 4px 5px 4px black;
+        text-align: center;
+        padding: 5px;
+        font-size: xx-large;
+        background-color: black;
+      }
+      nav ul,
+      li {
+        display: flex;
+        padding: auto;
+        list-style-type: none;
+        margin-right: 10px;
+        text-decoration: none;
+      }
+     nav{
+        margin-left: 33vw;
+     }
+     a:hover {
+      background-color: yellow;
+      color: black;
+      transition: 0.3s;
+     }
+
+     
+      li a {
+        color: rgb(38, 195, 238);
+        font-size: large;
+        font-weight: 900;
+        text-decoration: none;
+        border-radius: 20px;
+        background-color: black;
+        padding: 5px;
+      }
+      img {
+        align-items: center;
+        margin-left: 0px;
+      }
+      .img img{
+               /* padding: 0px 20px 0px 100px; */
+               margin: 0px 20px 0px 100px;
+               margin-bottom: 20px;
+               margin-left: 120px;
+      }
+      #welcome {
+        color: rgb(208, 22, 22);
+        background-color: rgb(139, 189, 209);
+        padding: 10px;
+        padding-right: 120px;
+        padding-left: 120px;
+        font-size: larger;
+        font-weight: bold;
+      }
+      #welcome marquee{
+               width: 79vw;    
+      }
+      #clgimg {
+        margin-right: 80px;
+      }
+      .frame{
+            margin-top: -325px ;
+            position: absolute;
+            background-color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Swami Vivekanad College</h1>
+    <div class="img">
+      <img src="../images/header-new.png" alt="" />
+    </div>
+    <span id="welcome">
+      <marquee behavior="sliding" direction="right">
+        Welcome to Vivekanad College!</marquee
+      >
+    </span>
+    <br />
+    <nav>
+      <ul>
+        <li class="item"><a href="home.html" target="myframe" alt="">Home </a></li>
+        <li class="item"><a href="courses.html" target="_blank" alt="">Courses</a></li>
+        <li class="item"><a href="about.html"  target="_blank" alt="">About</a></li>
+        <li class="item"><a href="contactUs.html" target="_blank" alt="">Contact us </a></li>
+      </ul>
+    </nav>
+    <br />
+    <br />
+    <span id="clgimg">
+      <img src="../images/d1.jpg" alt="team" />
+      <img src="../images/d3.jpg" alt="student" />
+    </span>
+    <iframe class="frame" width="500px" height="400px" src="../html/home.html" name="myframe"></iframe>
+  </body>
+</html>

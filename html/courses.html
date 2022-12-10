@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Courses </title>
+        <style>
+            *{
+                margin: 0%;
+                padding: 0%;
+                box-sizing: border-box;
+                font-family: sans-serif;
+                position: relative;
+            }
+            .bg{
+                background-image: url(../images/campus.jpg);
+                width: 100%;
+                height: 100vh;
+                background-size: cover;
+                filter: blur(3px);
+                background-position: center bottom;
+            }
+            .bg::after{
+                content: "";
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                background-color: rgba(0,0,0,0.6);
+            }
+            .content{
+                position: absolute;
+                top:0;
+                left:35%;
+                text-align: center;
+            }
+            .content h1{
+                color: white;
+                padding: 8px;
+                margin: 10px;
+                background-color: black;
+                border-radius: 20px;
+            }
+            .content p{
+                color: rgb(255, 255, 255);
+                font-size: large;
+            }
+            .nav{
+                position: absolute;
+                top: 0;
+                padding: 5px;
+                margin: 20px;
+                background-color: black;      
+            }
+            .nav a{
+                text-decoration: none;
+                text-align: center;
+                color: aqua;
+                padding: 5px;
+                border-radius: 5px;
+            }
+            #courses{
+                position: absolute;
+                top:20%;
+                left: 40;
+            }
+            .faculty{
+                top: 20%;
+                left:40%;
+               position: absolute;
+               text-align: center;
+               color: rgb(242, 246, 9);
+               padding: 20px;
+               list-style-type: none;
+               text-shadow: 3px 3px 3px black;
+            }
+            .faculty li{
+                padding: 10px;
+                margin: 10px;
+                border-radius: 5px;
+                background-color: rgb(43, 196, 178);
+            }
+           
+        </style>
+    </head>
+    <body>
+        <div class="bg"></div>
+        <div class="content">
+            <h1> Courses  </h1>
+            <p> Courses that can give you <mark>BETTER FUTURE!</mark> </p>
+        </div> 
+        <div class="nav">
+            <a href="index.html" target="index.html"> Home </a>
+        </div>
+        <span id="courses">
+        <!-- <img src="../images/art.jpg" alt=""> -->
+        </span>
+       <ul class="faculty">
+        <li> Arts </li>
+        <li>Commerce </li>
+        <li>Science</li>
+        <li>BCA </li>
+        <li>BBA</li>
+        <li>Civil Enginerring </li>
+        <li>Hotel Management</li>
+       </ul>
+    </body>
+</html>
